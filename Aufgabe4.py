@@ -10,14 +10,14 @@ def sieb_des_eratosthenes(n):
 # b)
 def prim_faktorisierung(n):
     res = []
-    q = 2
+    f = 2
     while n > 1:
-        if n%q == 0:
-            res.append(q)
-            n = n//q
-            q = 2
+        if n%f == 0:
+            res.append(f)
+            n = n//f
+            f = 2
         else:
-            q += 1
-        if (q > n):
+            f += 1
+        if (f > n):
             break
     return res
