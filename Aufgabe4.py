@@ -18,6 +18,6 @@ def prim_faktorisierung(n):
             q = 2
         else:
             q += 1
-        if (q == n):
+        if (q > n):
             break
     return res
