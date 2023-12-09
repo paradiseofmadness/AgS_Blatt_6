@@ -1,4 +1,3 @@
-import math
 # a)
 def sieb_des_eratosthenes(n):
     res = [i for i in range(2, n+1)]
